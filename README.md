@@ -4,7 +4,7 @@ Detailed information can be found [here](https://trustwallet.notion.site/Backend
 
 
 ## Solution
-Using multiple go routines to retrieve transaction history data from chain and save them into the system, 3 public enpoints for accessing data from local storage
+Using go routines to retrieve transaction history data from chain in timer manner,  and save them into the system, 3 public enpoints for accessing data from local storage
 ### Run the App
 To run the app is pretty staightforward, similar as the other Go applications.
 - Clone the app to your local 
